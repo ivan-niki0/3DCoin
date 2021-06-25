@@ -1,0 +1,193 @@
+body{font-size: 15px;color: #5f5f5f;}
+ h2{margin-bottom:20px;font-size: 1.78rem;text-transform:uppercase;}
+ a{color:#5681C2;}
+  a:hover{text-decoration:none;}
+  ul{list-style-type:none;}
+ .btn{transition:all 0.5s;}
+ h2 small{text-transform: none;}
+ .bottomp0{padding-bottom:0px;}
+ .text-green{color:#44938E;}
+ .circle{border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;
+  -ms-border-radius:50%;-o-border-radius:50%;}
+  .bg-grey {background: #F5F7F9;}
+/** buttons and other elements theme colors **/
+.btn-primary{background:#5681C2;border-color:#5681C2;}
+.btn-primary:hover, .btn-primary:active{background: #41659c;border-color:#41659c;}
+.btn-outline-primary{color:#5681C2;border-color:#5681C2;}
+.btn-outline-primary:hover,
+.btn-outline-primary:not(:disabled):not(.disabled):active{
+  background-color: #5681C2;border-color: #5681C2;
+}
+.btn-secondary{background:#44938E;border-color:#44938E;}
+.btn-secondary:hover, .btn-secondary:active{background: #367b77;border-color:#367b77;}
+.btn-outline-secondary{color:#44938E;border-color:#44938E;}
+.btn-outline-secondary:hover, 
+.btn-outline-secondary:not(:disabled):not(.disabled):active{
+  background-color: #44938E;border-color: #44938E;
+}
+/** buttons and other elements theme colors End **/
+.container {max-width: 1170px;}
+header{
+  background-image: linear-gradient(to right top, #44938E, #5681C2);box-shadow: 0px 0px 7px 2px #afafaf;
+-moz-box-shadow: 0px 0px 7px 2px #afafaf;-webkit-box-shadow: 0px 0px 7px 2px #afafaf;
+-o-box-shadow: 0px 0px 7px 2px #afafaf;-ms-box-shadow: 0px 0px 7px 2px #afafaf;padding: 25px 15px;
+}
+header .collapse{padding-left:100px;}
+header .headerWrapp .headerBar{text-align:right;}
+header .headerWrapp .headerBar form{display:inline-block;}
+.navbar.navbar-theme{position:relative;}
+.navbar-toggler{display:none;}
+.navbar.navbar-theme .navbar-brand{position: absolute;left: 18px;top: -25px;background: #ffffff;
+ border-radius: 0px 0px 6px 6px;-moz-border-radius: 0px 0px 6px 6px;
+ -webkit-border-radius: 0px 0px 6px 6px;-o-border-radius: 0px 0px 6px 6px;
+ -ms-border-radius: 0px 0px 6px 6px;box-shadow: 0px 0px 9px 1px #8aadb1;
+ -moz-box-shadow: 0px 0px 9px 1px #8aadb1;-webkit-box-shadow: 0px 0px 9px 1px #8aadb1;
+ -o-box-shadow: 0px 0px 9px 1px #8aadb1;-ms-box-shadow: 0px 0px 9px 1px #8aadb1;
+  padding: 5px 15px 15px;margin-bottom: 20px;}
+.navbar .navbar-nav{margin-left:5%;}
+.navbar-brand{color:#ffffff;font-weight:bold;}
+.navbar .nav-item .nav-link{color:#ffffff;text-transform:uppercase;}
+.navbar .nav-item{margin-left:10px;}
+.navbar .navbar-toggle{border: 1px solid #ffffff}
+.headerWrapp .dropdown-toggle:after{content: "\f107";font-family:FontAwesome;border-top:0;border-right:0;border-left:0;vertical-align:inherit;margin-left: 0.1em;}
+.navbar .dropdown-menu{padding:0px 0px;top: 112%;}
+.navbar .dropdown-menu .dropdown-item{padding:4px 7px;font-size:15px;}
+.navbar .dropdown-menu .dropdown-item:first-child{
+      border-top-left-radius: .25rem;border-top-right-radius: .25rem;
+}
+.navbar-toggler-icon i{font-size: 26px;line-height: 31px;color: #ffffff;}
+.headerWrapp input[type="search"]{border: 0px;height:32px;border-radius:30px;padding: 5px 10px 5px 32px;
+  min-width: 215px;
+}
+.headerWrapp .searchbox{position:relative;}
+.headerWrapp .searchbox .icon{position:absolute;top: 11px;left: 12px;color: #84b3b0;}
+.btnheader{color:#ddf3f3;border-color: #b6d2d4;}
+.btnheader:hover{color:#ffffff;border-color: #ffffff;background-color:#5681C2;}
+.headerBar{float:right;}
+section{padding:40px 0px;}
+.latestBlocks{padding-top:50px;}
+.latestBlocks table{margin-bottom:0;}
+.useractions{}
+.useractions .actiontab{padding: 15px;text-align:center;background:#fbfbfb;
+    box-shadow: 0px 0px 2px 0px #cccccc;transition: all 0.5s;}
+.useractions .actiontab .icon{position:relative;height:100px;width:100px;background-color:#c5c5c5;
+  display:inline-block;transition: all 0.5s;}
+.useractions .actiontab .icon.btc{background-image: url('../images/bitcoin-icon.png');
+background-repeat: no-repeat;background-position: center;}
+.useractions .actiontab .icon:before{content:"";height:108px;width:108px;background:transparent;
+border:1px dashed #cccccc;border-radius:50%;display:inline-block;position:absolute;top:-4px;left:-4px;}
+.useractions .actiontab:hover{background: #ffffff;}
+.useractions .actiontab h5{color: #5f5f5f;}
+.useractions .actiontab .icon.wallet{background-image: url('../images/wallet-icon.png');
+background-repeat: no-repeat;background-position: center;}
+.useractions .actiontab:hover .icon{background-color:#74a5a1;}
+.useractions .actiontab:hover h5{color: #44938E;}
+.useractions .learnMore .btn{margin-top:20px;}
+.trnsactionCounter{margin: 18px 0px 10px;width:100%;}
+.searchTransactions{padding:12px 25px 20px;color:#ffffff;
+  background-image: linear-gradient(to right top, #44938E, #5681C2);
+}
+.searchTransactions form{position:relative;padding-right:100px;}
+.searchTransactions h2{margin-bottom: 5px;}
+.searchTransactions form .btn {position:absolute;top:0px;right:0px;background:#ffffff;}
+.searchTransactions form input,
+.searchNotFound form input{
+  border-color: #498e9d;padding-left:32px;}
+.searchTransactions form span, .searchNotFound form span{
+  position: absolute;top: 11px;left: 12px;color: #84b3b0;}
+.searchNotFound form input{height:40px;}
+.searchNotFound form span{font-size: 20px;left:22px;top:10px;}
+/** cou8nter css **/
+.counter {display:block;font-size:3em;line-height:1.2em;
+  -webkit-box-reflect: below -15px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(60%, transparent), to(rgba(255,255,255,0.3)));
+}
+.counter span.digit {background:#469292;
+  background: linear-gradient(bottom, #469292 0%, #5482be 50%, #94bfbe 100%);
+  background: -o-linear-gradient(bottom, #469292 0%, #5482be 50%, #94bfbe 100%);
+  background: -moz-linear-gradient(bottom, #469292 0%, #5482be 50%, #94bfbe 100%);
+  background: -webkit-linear-gradient(bottom, #469292 0%, #5482be 50%, #94bfbe 100%);
+  background: -ms-linear-gradient(bottom, #469292 0%, #5482be 50%, #94bfbe 100%);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #469292), color-stop(0.5, #5482be), color-stop(1, #94bfbe));
+  filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#469292', endColorstr='#5482be'); /* IE6 & IE7 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#469292', endColorstr='#5482be')"; /* IE8 */
+  zoom:1;-webkit-border-radius:0.1em;-moz-border-radius:0.1em;border-radius:0.1em;
+  background-clip:border;color:#FFF;display:block;float:left;height: 75px;margin:0 1px;
+  overflow:hidden;padding:0;position:relative;text-align:center;width: 50px;
+}
+.counter span.digit span {line-height: 75px;position:relative;top:0;}
+.counter span.digit hr {border-color: transparent;
+  -webkit-box-shadow: inset 0 2px 1px  rgb(158, 180, 214);
+  -moz-box-shadow: inset 0 2px 1px  rgb(158, 180, 214);
+  box-shadow: inset 0 2px 1px   rgb(158, 180, 214);height: 3px;margin: -2px 0 0 0;
+  position: absolute;top: 50%;width: 100%;z-index: 1;}
+.counter span.separator {display:block;float:left;font-family:Georgia, serif;
+    font-size:0.5em;position:relative;top:0.5em;}
+.counter span.separator hr {display:none;}
+.marketCap{margin-top:45px;}
+.marketCap .statsCol{margin-bottom:15px;font-size:25px;}
+.marketCap .statsCol label{text-transform:uppercase;}
+table tr td.hash-link{font-size:12px;}
+.coinWalletadd {width: 300px;margin:50px auto;padding:30px;background:#e5f2fb;
+  box-shadow:0px 0px 6px 0px #a0bcd2;-moz-box-shadow:0px 0px 6px 0px #a0bcd2;
+-webkit-box-shadow:0px 0px 6px 0px #a0bcd2;-o-box-shadow:0px 0px 6px 0px #a0bcd2;
+-ms-box-shadow:0px 0px 6px 0px #a0bcd2;text-align:center;}
+.coinWalletadd h5{text-transform:uppercase;color: #5681c2;}
+.coinWalletadd .btn{margin: 0px 0px 15px;}
+.coinWalletadd .walleticon{height:85px;width:85px;
+  display:inline-block;margin-bottom:10px;
+  background:#44938E url('../images/wallet-icon.png') no-repeat center;}
+
+/** Transaction table **/
+.transactionTbl table td{font-size:14px;}
+.transactionTbl table td .btn{margin-top:10px;}
+.transactionTbl table td a{display:block;}
+.dcAddress h2{margin-bottom:8px;}
+.dcAddress h6{margin-bottom:30px;}
+.qrcode img{max-width:100%;}
+.transactFilter{margin-top:40px;}
+.transactFilter h2 small{text-transform: none;}
+.inputField{border:1px solid #e6e6e6;position:relative;}
+.inputField input{border:0px;padding-right:60px;width:100%;padding:7px;}
+.inputField .typeinfo{position: absolute;top: 7px;right: 5px;}
+.createpayRequest ul{margin:0;padding:0;}
+.createpayRequest h6{margin-bottom:4px;margin-top:9px;}
+.createpayRequest .reqLink{overflow:auto;}
+.createpayRequest ul li{margin-bottom:20px;}
+.createpayRequest textarea{width:100%;height:65px;border:1px solid #e6e6e6;resize: none;}
+.createpayRequest .addressLinks{margin-top:10px;}
+.createpayRequest .addressLinks .col-md-9 p{margin-top:3px;}
+.createpayRequest .addressLinks .btn{margin-top:15px;}
+.questionBlock{margin:0 0px 30px;padding:0;}
+.questionBlock li{}
+.questionBlock li a{font-size:20px;display:inline-block;}
+.questionBlock li span{display:block;}
+
+
+
+/** Footer **/
+footer{padding:10px 0px;background:#73839c;color:#ffffff;}
+footer p{margin-bottom:0px;color:#a0aec3;}
+footer .copyright{padding: 15px 0px 8px;border-top: 1px solid #657692;
+  box-shadow: 0px -1px 1px 0px #8391a9;-moz-box-shadow: 0px -1px 1px 0px #8391a9;
+-webkit-box-shadow: 0px -1px 1px 0px #8391a9;-o-box-shadow: 0px -1px 1px 0px #8391a9;
+-ms-box-shadow: 0px -1px 1px 0px #8391a9;}
+footer h4{text-transform: uppercase;font-size: 18px;margin-top: 30px;padding-bottom: 7px;
+  border-bottom: 1px solid #ffffff;margin-right: 20px;}
+footer h4 span{position:relative;}
+footer h4 span:after{content:"";height:1px;width:100%;display:inline-block;background:#88b2f3;
+position:absolute;bottom:-7px;left:0px;}
+footer ul{padding:0px;}
+footer ul li{padding:4px 0px;}
+footer ul li a{color:#c8d3e4;}
+footer ul li a:hover{color:#ffffff;}
+footer ul.social{margin-top:20px;}
+footer ul.social li{display:inline-block;margin-right:10px;}
+footer ul.social li a{height: 36px;width: 36px;display: block;text-align: center;
+  font-size: 17px;line-height: 35px;background: #9aa9c1;color: #eaf2ff;}
+footer ul.social li a i{}
+footer ul.social li:hover a{color:#ffffff;}
+footer ul.social li.icon_fb:hover a{background:#4464b1;}
+footer ul.social li.icon_tw:hover a{background:#56acef;}
+footer ul.social li.icon_gp:hover a{background:#da4936;}
+footer ul.social li.icon_in:hover a{background:#017ab3;}
+footer ul.social li.youtube:hover a{background:#e62118;}
